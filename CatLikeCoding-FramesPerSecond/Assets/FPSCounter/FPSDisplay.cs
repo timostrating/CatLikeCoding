@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent (typeof (FPSCouter))]
+[RequireComponent (typeof (FPSCounter))]
 public class FPSDisplay : MonoBehaviour {
 
-    public Text avarageFPSLabel, higestFPSLabel, lowestFPSLabel;
+    public Text highestFPSLabel, avarageFPSLabel, lowestFPSLabel;
+    [SerializeField]
+    private FPSColor[] coloring;
 
     static string[] strings00to99 = {
         "00", "01", "02", "03", "04", "05", "06", "07", "08", "09",        
@@ -20,14 +22,32 @@ public class FPSDisplay : MonoBehaviour {
     };
 
 
-    FPSCouter fpsCouter;
+    FPSCounter fpsCounter;
     void Awake () {
-        fpsCouter = GetComponent<FPSCouter> ();
+        fpsCounter = GetComponent<FPSCounter> ();
     }
 
     void Update () {
-        avarageFPSLabel.text = strings00to99[Mathf.Clamp(fpsCouter.AvarageFPS, 0, 99)];
-        higestFPSLabel.text = strings00to99[Mathf.Clamp(fpsCouter.HighestFPS, 0, 99)];
-        lowestFPSLabel.text = strings00to99[Mathf.Clamp(fpsCouter.LowestFPS, 0, 99)];
+        Display( highestFPSLabel, fpsCounter.HighestFPS);
+        Display( avarageFPSLabel, fpsCounter.AvarageFPS);
+        Display( lowestFPSLabel, fpsCounter.LowestFPS);
     }
+
+    void Display(Text label, int fps) {
+        label.text = strings00to99[Mathf.Clamp(fps, 0, 99)];
+        for (int i = 0; i < coloring.Length; i++) {
+            if (fps >= coloring[i].minimumFPS) {
+				label.color = coloring[i].color;
+				break;
+			}
+        }
+    }
+
+
+
+    [System.Serializable]
+	private struct FPSColor {
+		public Color color;
+		public int minimumFPS;
+	}
 }

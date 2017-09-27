@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class FPSCouter : MonoBehaviour {
+public class FPSCounter : MonoBehaviour {
 
     public int AvarageFPS { get; private set; }
     public int HighestFPS { get; private set; }
