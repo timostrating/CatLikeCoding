@@ -3,5 +3,10 @@
 	Sine2D,
 	MultiSine,
 	MultiSine2D,
-	Ripple
+	Ripple,
+	Cylinder,
+	TwistingCylinder,
+	Sphere,
+	PulsingSphere,
+	Torus
 }
