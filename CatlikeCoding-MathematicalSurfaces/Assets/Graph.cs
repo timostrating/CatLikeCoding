@@ -8,7 +8,7 @@ public class Graph : MonoBehaviour {
 	public GraphFunctionName function; 
 
 	static GraphFunction[] functions = { 
-		SineFunction, Sine2DFunction, MultiSineFunction
+		SineFunction, Sine2DFunction, MultiSineFunction, MultiSine2DFunction, Ripple
 	};
 
 
@@ -65,9 +65,17 @@ public class Graph : MonoBehaviour {
 	}
 
 	static float MultiSine2DFunction(float x, float z, float t) {
-		float y = Mathf.Sin(pi * (x + t));
-		y += Mathf.Sin(2f * pi * (x + 2f * t)) / 2f;
-		y *= 2f / 3f;
+		float y = 4f * Mathf.Sin(pi * (x + z + t * 0.5f));
+		y += Mathf.Sin(pi * (x + t));
+		y += Mathf.Sin(2f * pi * (z + 2f * t)) * 0.5f;
+		y *= 1f / 5.5f;
+		return y;
+	}
+
+	static float Ripple (float x, float z, float t) {
+		float d = Mathf.Sqrt(x * x + z * z);
+		float y = Mathf.Sin(pi * (4f * d - t));
+		y /= 1f + 10f * d;
 		return y;
 	}
 }
