@@ -42,6 +42,7 @@
 - [ ] Surface Displacement
 - [ ] Bloom
 - [ ] Depth of Field
+- [ ] FXAA
 
 ### 1.5 Hex Map
 - [ ] Creating a Hexagonal Grid
