@@ -8,13 +8,16 @@
 - [x] Object Pools
 - [ ] Curves and Splines
 
-### 1.2 Mesh Basics
+### 1.2 Object Management
+- [ ] Object Management
+
+### 1.3 Mesh Basics
 - [ ] Procedural Grid
 - [ ] Rounded Cube
 - [ ] Cube Sphere
 - [ ] Mesh Deformation
 
-### 1.3 Rendering
+### 1.4 Rendering
 - [ ] Matrices
 - [ ] Shader Fundamentals
 - [ ] Combining Textures
@@ -36,7 +39,7 @@
 - [ ] GPU Instancing
 - [ ] Parallax
 
-### 1.4 Advanced Rendering
+### 1.5 Advanced Rendering
 - [ ] Flat and Wireframe Shading
 - [ ] Tessellation
 - [ ] Surface Displacement
@@ -44,7 +47,7 @@
 - [ ] Depth of Field
 - [ ] FXAA
 
-### 1.5 Hex Map
+### 1.6 Hex Map
 - [ ] Creating a Hexagonal Grid
 - [ ] Blending Cell Colors
 - [ ] Elevation and Terraces
@@ -73,19 +76,19 @@
 - [ ] Biomes and Rivers
 - [ ] Wrapping
 
-### 1.4 Noise
+### 1.7 Noise
 - [ ] Noise
 - [ ] Noise Derivatives
 - [ ] Simplex Noise
 
-### 1.5 Marching Squares
+### 1.8 Marching Squares
 - [ ] Partitioning Space
 - [ ] Sharing and Crossing
 - [ ] Staying Sharp
 - [ ] Erecting Walls
 - [ ] Being Colorful
 
-### 1.6 Games
+### 1.9 Games
 - [ ] Swirly Pipe
 - [ ] Maze
 - [ ] Graphs
