@@ -9,7 +9,7 @@
 - [ ] Curves and Splines
 
 ### 1.2 Object Management
-- [ ] Object Management
+- [x] Object Management
 
 ### 1.3 Mesh Basics
 - [ ] Procedural Grid
