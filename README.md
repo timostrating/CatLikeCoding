@@ -46,6 +46,7 @@
 - [ ] Bloom
 - [ ] Depth of Field
 - [ ] FXAA
+- [ ] Triplanar Mapping
 
 ### 1.6 Hex Map
 - [ ] Creating a Hexagonal Grid
