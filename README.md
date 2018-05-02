@@ -12,7 +12,7 @@
 - [x] Object Management
 
 ### 1.3 Mesh Basics
-- [ ] Procedural Grid
+- [x] Procedural Grid
 - [ ] Rounded Cube
 - [ ] Cube Sphere
 - [ ] Mesh Deformation
