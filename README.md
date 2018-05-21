@@ -10,6 +10,7 @@
 
 ### 1.2 Object Management
 - [x] Object Management
+- [ ] Object Variety
 
 ### 1.3 Mesh Basics
 - [x] Procedural Grid
