@@ -1,24 +1,27 @@
 # CatLikeCoding - Tutorials
 
-### 1.1 Basics
+### 2.1 Basics
 - [x] Clock
 - [x] Building a Graph
+- [x] Mathematical Sufaces
 - [x] Constructing a Fractal
 - [x] Frames Per Second
 - [x] Object Pools
-- [ ] Curves and Splines
 
-### 1.2 Object Management
+### 2.2 Object Management
 - [x] Object Management
 - [ ] Object Variety
 
-### 1.3 Mesh Basics
+### 2.3 Flow
+- [ ] Texture Distortion
+
+### 2.4 Mesh Basics
 - [x] Procedural Grid
 - [ ] Rounded Cube
 - [ ] Cube Sphere
 - [ ] Mesh Deformation
 
-### 1.4 Rendering
+### 2.5 Rendering
 - [ ] Matrices
 - [ ] Shader Fundamentals
 - [ ] Combining Textures
@@ -40,7 +43,7 @@
 - [ ] GPU Instancing
 - [ ] Parallax
 
-### 1.5 Advanced Rendering
+### 2.6 Advanced Rendering
 - [ ] Flat and Wireframe Shading
 - [ ] Tessellation
 - [ ] Surface Displacement
@@ -49,7 +52,7 @@
 - [ ] FXAA
 - [ ] Triplanar Mapping
 
-### 1.6 Hex Map
+### 2.7 Hex Map
 - [ ] Creating a Hexagonal Grid
 - [ ] Blending Cell Colors
 - [ ] Elevation and Terraces
@@ -78,22 +81,24 @@
 - [ ] Biomes and Rivers
 - [ ] Wrapping
 
-### 1.7 Noise
+### 2.8 Noise
 - [ ] Noise
 - [ ] Noise Derivatives
 - [ ] Simplex Noise
 
-### 1.8 Marching Squares
+### 2.9 Marching Squares
 - [ ] Partitioning Space
 - [ ] Sharing and Crossing
 - [ ] Staying Sharp
 - [ ] Erecting Walls
 - [ ] Being Colorful
 
-### 1.9 Games
+### 2.10 Games
 - [ ] Swirly Pipe
 - [ ] Maze
-- [ ] Graphs
+
+### 2.11 Games
+- [ ] Curves and Splines
 - [ ] Runner
 - [ ] Octahedron Sphere
 - [ ] Custom Data
