@@ -11,6 +11,7 @@
 ### 2.2 Object Management
 - [x] Object Management
 - [ ] Object Variety
+- [ ] Reusing Objects
 
 ### 2.3 Flow
 - [ ] Texture Distortion
