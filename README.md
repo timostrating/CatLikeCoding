@@ -1,5 +1,7 @@
 # CatLikeCoding - Tutorials
 
+[The website where the tutorials are hosted](https://catlikecoding.com/unity/tutorials/)
+
 ### 2.1 Basics
 - [x] Clock
 - [x] Building a Graph
@@ -99,7 +101,7 @@
 - [ ] Swirly Pipe
 - [ ] Maze
 
-### 2.11 Games
+### 2.11 Older Tutorials
 - [ ] Curves and Splines
 - [ ] Runner
 - [ ] Octahedron Sphere
