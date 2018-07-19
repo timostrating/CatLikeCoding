@@ -14,6 +14,7 @@
 - [x] Object Management
 - [ ] Object Variety
 - [ ] Reusing Objects
+- [ ] Multiple Scenes
 
 ### 2.3 Flow
 - [ ] Texture Distortion
