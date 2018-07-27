@@ -19,6 +19,7 @@
 ### 2.3 Flow
 - [ ] Texture Distortion
 - [ ] Directional Flow
+- [ ] Waves
 
 ### 2.4 Mesh Basics
 - [x] Procedural Grid
