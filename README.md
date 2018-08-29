@@ -15,6 +15,7 @@
 - [ ] Object Variety
 - [ ] Reusing Objects
 - [ ] Multiple Scenes
+- [ ] Spawn Zones
 
 ### 2.3 Flow
 - [ ] Texture Distortion
