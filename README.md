@@ -21,6 +21,7 @@
 - [ ] Texture Distortion
 - [ ] Directional Flow
 - [ ] Waves
+- [ ] Looking Through Water
 
 ### 2.4 Mesh Basics
 - [x] Procedural Grid
