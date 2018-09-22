@@ -16,6 +16,7 @@
 - [ ] Reusing Objects
 - [ ] Multiple Scenes
 - [ ] Spawn Zones
+- [ ] More Game State
 
 ### 2.3 Flow
 - [ ] Texture Distortion
