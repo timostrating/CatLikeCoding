@@ -30,7 +30,10 @@
 - [ ] Cube Sphere
 - [ ] Mesh Deformation
 
-### 2.5 Rendering
+### 2.5 Scriptable Render Pipeline
+- [ ] Custom Pipeline
+
+### 2.6 Rendering
 - [ ] Matrices
 - [ ] Shader Fundamentals
 - [ ] Combining Textures
@@ -52,7 +55,7 @@
 - [ ] GPU Instancing
 - [ ] Parallax
 
-### 2.6 Advanced Rendering
+### 2.7 Advanced Rendering
 - [ ] Flat and Wireframe Shading
 - [ ] Tessellation
 - [ ] Surface Displacement
@@ -61,7 +64,7 @@
 - [ ] FXAA
 - [ ] Triplanar Mapping
 
-### 2.7 Hex Map
+### 2.8 Hex Map
 - [ ] Creating a Hexagonal Grid
 - [ ] Blending Cell Colors
 - [ ] Elevation and Terraces
@@ -90,23 +93,23 @@
 - [ ] Biomes and Rivers
 - [ ] Wrapping
 
-### 2.8 Noise
+### 2.9 Noise
 - [ ] Noise
 - [ ] Noise Derivatives
 - [ ] Simplex Noise
 
-### 2.9 Marching Squares
+### 2.10 Marching Squares
 - [ ] Partitioning Space
 - [ ] Sharing and Crossing
 - [ ] Staying Sharp
 - [ ] Erecting Walls
 - [ ] Being Colorful
 
-### 2.10 Games
+### 2.11 Games
 - [ ] Swirly Pipe
 - [ ] Maze
 
-### 2.11 Older Tutorials
+### 2.12 Older Tutorials
 - [ ] Curves and Splines
 - [ ] Runner
 - [ ] Octahedron Sphere
