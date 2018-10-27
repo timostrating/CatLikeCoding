@@ -17,6 +17,7 @@
 - [ ] Multiple Scenes
 - [ ] Spawn Zones
 - [ ] More Game State
+- [ ] Configuring Shapes
 
 ### 2.3 Flow
 - [ ] Texture Distortion
