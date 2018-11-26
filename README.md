@@ -18,6 +18,7 @@
 - [ ] Spawn Zones
 - [ ] More Game State
 - [ ] Configuring Shapes
+- [ ] More Factories 
 
 ### 2.3 Flow
 - [ ] Texture Distortion
