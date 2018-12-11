@@ -35,6 +35,7 @@
 ### 2.5 Scriptable Render Pipeline
 - [ ] Custom Pipeline
 - [ ] Custom Shaders
+- [ ] Lights
 
 ### 2.6 Rendering
 - [ ] Matrices
