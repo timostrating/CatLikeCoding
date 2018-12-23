@@ -19,6 +19,7 @@
 - [ ] More Game State
 - [ ] Configuring Shapes
 - [ ] More Factories 
+- [ ] Shape Behavior
 
 ### 2.3 Flow
 - [ ] Texture Distortion
