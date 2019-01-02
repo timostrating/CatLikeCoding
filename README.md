@@ -37,6 +37,7 @@
 - [ ] Custom Pipeline
 - [ ] Custom Shaders
 - [ ] Lights
+- [ ] Spotlight Shadows
 
 ### 2.6 Rendering
 - [ ] Matrices
